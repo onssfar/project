@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/contactstyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <title>AR Architecture</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/res/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+            AR Architecture
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about.html">About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="coordinates">Our coordinates :</div>
+    <div id="bloc">
+        <div id="img"><img src="/res/coordonnee.jpg" class="img-thumbnail" alt="Cinque Terre" alt="" width="100%"
+                height="100%"></div>
+        <div id="paragraphe">
+            Project design is developed by a team of architects and interior designers working
+            side by side with you. Our office is located in Mahdia, Tunisia. We develop architectural projects
+            with innovation, know-how, artistic touch, responsibility and respect for the client's budgets.
+        </div>
+    </div>
+    <div>
+        <hr>
+        <div class="contactus"> Contact us :</div>
+        <div class="contenu">To contact us, please fill out the following form. Our team is committed to responding to
+            you as soon as
+            possible.</div><br><br>
+        <div class="container">
+            <form class="form" method="POST" action="">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="phone number">Phone number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="phone" name="Phone number" placeholder="Your phone Number..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Email address">Email address</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="Name@example.com">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Country</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="Ariana">Ariana</option>
+                            <option value="Beja">Beja</option>
+                            <option value="Ben Arous">Ben Arous</option>
+                            <option value="Bizerte">Bizerte</option>
+                            <option value="Gabes">Gabes</option>
+                            <option value="Gafse">Gafsa</option>
+                            <option value="Jendouba">Jendouba</option>
+                            <option value="Kairouan">Kairouan</option>
+                            <option value="Kasserine">Kasserine</option>
+                            <option value="kebili">Kebili</option>
+                            <option value="Manouba">Manouba</option>
+                            <option value="Kef">Kef</option>
+                            <option value="Mahdia">Mahdia</option>
+                            <option value="Medenine">Medenine</option>
+                            <option value="Monastir">Monastir</option>
+                            <option value="Nabeul">Nabeul</option>
+                            <option value="Sfax">Sfax</option>
+                            <option value="Sidi Bouzid">Sidi Bouzid</option>
+                            <option value="Siliana">Siliana</option>
+                            <option value="Sousse">Sousse</option>
+                            <option value="Tataouine">Tataouine</option>
+                            <option value="Tozeur">Tozeur</option>
+                            <option value="Tunis">Tunis</option>
+                            <option value="Zaghouan">Zaghouan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="message" name="message" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <div class="inner-footer">
+            <div class="footer-items">
+                <img src="/res/logo.jpg" alt="" width="50" height="50" class="img">
+            </div>
+            <div class="footer-items">
+                <h2> Contact US</h2>
+                <ul>
+                    <ol> <i class="fa fa-map-marker" aria-hidden="true"> </i> Rue Bechir Sfar, Mahdia 510</ol>
+                    <ol> <i class="fa fa-phone" aria-hidden="true"> </i> 52 654 000</ol>
+                    <ol><i class="fa fa-envelope" aria-hidden="true"> </i> sfar.architecture@gmail.com</ol>
+                </ul>
+                <div class="footer-items">
+                    <div class="social-media">
+                        <div class="back">
+                            <div class="back_content middle">
+                                <div class="sm">
+                                    <a href="https://www.facebook.com/AR-Architecture-103923647761770/?epa=SEARCH_BOX">
+                                        <i class="fab fa-facebook"></i></a>
+                                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                                    <a href="#"> <i class="fab fa-youtube"></i> </a>
+                                    <a href="#"> <i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
+<script src="/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</html>
